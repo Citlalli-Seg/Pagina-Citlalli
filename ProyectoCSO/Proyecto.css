@@ -1,0 +1,256 @@
+/* PAGINA 1*/
+.img-busqueda {
+    float: left;
+  }
+  .img-usuario {
+    float: left;
+  }
+  .img-megusta {
+    float: left;
+  }
+  .img-biblioteca {
+    float: left;
+  }
+  .img-singin {
+    float: right;
+  }
+  .img-singup{
+    position:relative;
+    right: -700px; 
+  }
+  
+  
+  h1 {
+    font-family:sans-serif moderna;
+    font-size:100px;
+    text-align:center;
+    margin-top: 130px;
+    animation: A1 5s infinite alternate;
+  }
+
+  @keyframes A1 {
+    0% {
+      color:#644F44;
+    }
+    50% {
+      color: rgb(151, 69, 151); /* Morado */
+    }
+    100% {
+      color:#644F44;
+    }
+  }
+  h2{
+    text-align:center;
+  }
+  
+  .img-libro {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #49423C;
+    color: #fff9f2;
+    text-align: center;
+    padding: 0px;
+    flex-shrink: 0;
+    margin-top: 130px;
+  }
+  
+  .pg1{
+    background-color:#FFF8F1;
+  }
+
+  
+  /*PAGINA2 */
+  h3 {
+    font-size:50px;
+    text-align: left;
+    margin-top: 100px;
+  }
+  h4{
+    text-align: center;
+    margin-left:-400px;
+  }
+  
+  .img-sug {
+    text-align: center;
+  }
+  
+  .pg2{
+    background-color:#FFF8F1;
+  }
+
+  /*PAGINA 3 */
+  .pg3{
+    background-color:#FFF8F1;
+  
+  }
+  
+  .img-libros {
+    float: left;
+  }
+  
+  .img-mangas {
+    position:relative;
+    right: -200px; 
+    
+  }
+  
+  .img-novelas {
+    position:relative;
+    right: -900px; 
+    top: -1030px;
+    
+  }
+
+  /*PAGINA 4 */
+  h5 {
+    font-size:50px;
+    text-align: left;
+    margin-top: 10px;
+   }
+  h6 {
+    font-size:25px;
+    margin-top:-70px;
+   }
+  
+  h7 {
+    font-size:25px;
+   
+   }
+  h8 {
+    font-size:25px;
+    margin-top: 10px;
+   }
+  h9 {
+    font-size:25px;
+    margin-top: 10px;
+   }
+  h10 {
+    font-size:25px;
+    margin-top: 10px;
+   }
+  
+  .lib {
+      display: flex;
+      /* convierte el contenedor en un contenedor flex */
+      justify-content: center;
+      /* centra los elementos horizontalmente */
+      align-items: center;
+      /* centra los elementos verticalmente */
+      margin-top: 20px;
+      /* Agregar espacio superior */
+  }
+  .lib-image {
+      max-width: 200px; /* Ajusta el tamaño máximo según sea necesario */
+      height: auto; /* Mantiene la proporción de la imagen */
+      display: block; /* Elimina cualquier espacio adicional alrededor de la imagen */
+      margin: 0 auto; /* Centra la imagen horizontalmente */
+  }
+  
+  .pg4{
+    background-color:#FFF8F1;
+  }
+  
+  /*PAGINA 5 */
+  h11 {
+    font-size:50px;
+    text-align: left;
+    margin-top: 10px;
+   }
+  h12 {
+    font-size:25px;
+  
+   }
+  
+  h13 {
+    font-size:25px;
+   
+   }
+  h14 {
+    font-size:25px;
+    margin-top: 10px;
+   }
+  h15 {
+    font-size:25px;
+    margin-top: 10px;
+   }
+  h16 {
+    font-size:25px;
+    margin-top: 10px;
+   }
+  
+  .man {
+      display: flex;
+      /* convierte el contenedor en un contenedor flex */
+      justify-content: center;
+      /* centra los elementos horizontalmente */
+      align-items: center;
+      /* centra los elementos verticalmente */
+      margin-top: 20px;
+      /* Agregar espacio superior */
+  }
+  .man-image {
+      max-width: 200px; /* Ajusta el tamaño máximo según sea necesario */
+      height: auto; /* Mantiene la proporción de la imagen */
+      display: block; /* Elimina cualquier espacio adicional alrededor de la imagen */
+      margin: 0 auto; /* Centra la imagen horizontalmente */
+  }
+  
+  .pg5{
+    background-color:#FFF8F1;
+  }
+  
+
+  /*PAGINA 6 */
+  h17 {
+    font-size:50px;
+    text-align: left;
+    margin-top: 10px;
+   }
+  h18 {
+    font-size:25px;
+  
+   }
+  
+  h19 {
+    font-size:25px;
+   
+   }
+  h20 {
+    font-size:25px;
+    margin-top: 10px;
+   }
+  h21 {
+    font-size:25px;
+    margin-top: 10px;
+   }
+  h22 {
+    font-size:25px;
+    margin-top: 10px;
+   }
+  h23 {
+    font-size:25px;
+    margin-top: 10px;
+   }
+  .nov {
+      display: flex;
+      /* convierte el contenedor en un contenedor flex */
+      justify-content: center;
+      /* centra los elementos horizontalmente */
+      align-items: center;
+      /* centra los elementos verticalmente */
+      margin-top: 20px;
+      /* Agregar espacio superior */
+  }
+  .nov-image {
+      max-width: 200px; /* Ajusta el tamaño máximo según sea necesario */
+      height: auto; /* Mantiene la proporción de la imagen */
+      display: block; /* Elimina cualquier espacio adicional alrededor de la imagen */
+      margin: 0 auto; /* Centra la imagen horizontalmente */
+  }
+  
+  .pg6{
+    background-color:#FFF8F1;
+  }
+  
